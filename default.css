@@ -24,3 +24,8 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #7A991A;
 }
+
+#blogs{
+    clear: both;
+    display: inline-block;
+}
