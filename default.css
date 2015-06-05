@@ -36,7 +36,7 @@ img {
 
 div {
     clear:left;
-    background-color: purple;
-    opacity: 0.6;
+    background-color: rgba(54, 40, 67);
     padding:20px;
+
 }
