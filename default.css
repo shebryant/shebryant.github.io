@@ -37,5 +37,6 @@ img {
 div {
     clear:left;
     background-color: purple;
-    padding:20px
+    opacity: 0.6;
+    padding:20px;
 }
