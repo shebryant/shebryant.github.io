@@ -29,3 +29,13 @@ a:hover, a:active {
     clear: both;
     display: inline-block;
 }
+
+img {
+    float: left;
+}
+
+div {
+    clear:left;
+    background-color: purple;
+    padding:20px
+}
