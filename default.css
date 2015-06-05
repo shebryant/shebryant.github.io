@@ -32,6 +32,7 @@ a:hover, a:active {
 
 img {
     float: left;
+    clear: both;
 }
 
 div {
