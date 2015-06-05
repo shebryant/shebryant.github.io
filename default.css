@@ -30,11 +30,6 @@ a:hover, a:active {
     display: inline-block;
 }
 
-img {
-    float: left;
-    clear: both;
-}
-
 div {
     clear:left;
     padding:40px;
