@@ -30,7 +30,11 @@ a:hover, a:active {
     display: inline-block;
 }
 
-div {
-    clear:left;
-    padding:20px;
-    }
+#contact{
+    text-align: center;
+}
+
+#about {
+    width: 40%;
+    float: right;
+}
