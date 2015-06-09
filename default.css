@@ -33,4 +33,7 @@ div {
     clear:left;
     padding:20px;
     }
-
+img {
+    float: left;
+    clear: both;
+}
