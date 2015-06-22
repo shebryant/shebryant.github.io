@@ -44,8 +44,8 @@ p {
     clear: both;
 }
 
-br h3{
-    float: right;
+h3{
+    float: left;
     clear: both;
 }
 
