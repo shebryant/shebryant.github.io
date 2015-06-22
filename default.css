@@ -44,6 +44,10 @@ p {
     clear: both;
 }
 
+br p {
+    clear: both;
+}
+
 footer{
     text-align: center;
     clear: both;
