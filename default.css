@@ -45,6 +45,7 @@ p {
 }
 
 br p {
+    float: left;
     clear: both;
 }
 
