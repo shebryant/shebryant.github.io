@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+ <head>		
+<title>Sheena's Getting Technical</title>
+   <meta charset="UTF-8">		
+<link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+ </head>			 
+ <main>		
+<h1>Let's Map it Out</h1>
+<h4>June 14, 2015</h4>
+<section>		   
+     <p>		     
+The  weeks in Dev Bootcamp's Phase 0 just KEEP winding down.  I hardly believe that Week 4 has ended.  We've been learning a ton and sometimes it can be a bit difficult to retain it all. I'm finding that it's helpful to teach the concepts I'm learning to other.  So be a pal, sit and listen for a sec while I talk through a helpful method I'v come across.
+</p>
+<p>
+I recently came across a method that I thought could help me solve a challenge I was working on, map.  When I went to Ruby docs - Ruby docs is a collection of resources for folks just learning Ruby, btw - to get a better handle on it before giving it a twirl, the language I found was rather unhelpful.  The documentation tells you that what map does is "returns a new array with the results of running block once for every element in enum. If no block is given, an enumerator is returned instead." What the what. I mean, I GUESS all of those pieces make sense to me but when you're just starting out, some times you just want people to speak to you in Eglish. Not in tech.
+</p>
+<p>
+After some more poking around, I was able to finally grasp what map actually does. Quite simply, it allows you to iterate over every element and whatever you return in the block is placed into a new array.  With this understanding I was able to go back to Ruby docs and totally understand what was being demonstrated in their example. I'll show you.
+</p>
+<p>
+Let's use the same example Ruby docs uses for consistency's sake.  If we were to type in (1..4).map { |i| i*i } here is what the computer would spit back out to us: [1, 4, 9, 16].  Do you understand what's happening here?  Let's walk through it. For each number 1-4, we are multiplying that number by that same number. So we iterate over each element, essentially performing 1 * 1, 2 * 2, 3 * 3, and 4 * 4. You can see that the results would be 1, 4, 9 and 16.  Map then puts the result into a new array. Thus our output, again, would like [1, 4, 9, 16].  
+</p>
+<p>
+Isn't that neat.  Helping walk you through that helped me! I hope going through those steps was actually helpful for you as well.
+</p>
