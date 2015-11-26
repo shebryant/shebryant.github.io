@@ -15,6 +15,10 @@ a.navbar-brand {
   /*background: #00FFFF;*/
 }
 
+div.mid-section{
+
+}
+
 .img-circle {
   padding: 25px;
   float: left;
@@ -44,8 +48,10 @@ span{
 }
 
 .jumbotron{
+
   background-color: #00FFFF;
   text-align: center;
+  border-color: gray;
 }
 
 div.blog-post{
@@ -63,7 +69,17 @@ div.blog-post{
 }
 
 div.about{
-  padding: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+h1.about-title-text{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 55px;
+  color: gray;
 }
 .social-container{
   padding: 30px; 
@@ -89,5 +105,12 @@ div.about{
   background: black;
   text-align: center;
   color: gray;
+}
+
+div.col-md-4{
+  color: gray;
+  font-size: 50px;
+  text-align: left;
+  padding: 20px;
 }
 
