@@ -1,0 +1,42 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: left;
+  /*background: #00FFFF;*/
+}
+
+.img-circle {
+  padding: 25px;
+  float: left;
+}
+
+a.navbar-brand {
+  font-family: 'Clicker Script', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+#animated-text{
+  color: gray;
+  font-size: 50px;  
+  width: 10em;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: type 5s steps(50, end);
+  animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+  from { width: 0; }
+   to { width:400px; }
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  to{ opacity: .0;}
+}
