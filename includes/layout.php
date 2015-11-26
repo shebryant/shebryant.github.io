@@ -59,23 +59,17 @@
           </div><!--/.nav-collapse -->
       </div>
     </nav>
-      <div class="container">
-        <img class="img-circle" src="images/square_headshot.jpg" alt="Headshot" height="320" width="320">
-        <div class="starter-template">
-          <h1 id="animated-text">Hi, I'm Sheena.<span>|</span></h1>
-          <p class="lead">Budding full stack developer eager to take on new projects.<br>I want to make cool things for great people.<br>Let's build something together!</p>
-      </div>
-      <nav class="navbar navbar-default navbar-fixed-bottom">
+
+
+
+    <nav class="navbar navbar-default navbar-fixed-bottom">
           <div class="footer">
               <p>&copy; 2015 Sheena Bryant<p>
           </div>
       </nav>
     </div><!-- /.container -->
-    <div class="jumbotron">
-          <div class="container">
-              <h1>Placeholder</h1>
-          </div>
-    </div>
+
+
 
 
     <!-- Bootstrap core JavaScript
@@ -88,4 +82,3 @@
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
-
