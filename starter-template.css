@@ -3,11 +3,12 @@ body {
   padding-bottom: 70px; 
 }
 
-.footer{
-  background: black;
-  text-align: center;
-  color: gray;
+a.navbar-brand {
+  font-family: 'Clicker Script', cursive;
+  font-size: 40px;
+  color: white;
 }
+
 .starter-template {
   padding: 40px 15px;
   text-align: left;
@@ -17,17 +18,6 @@ body {
 .img-circle {
   padding: 25px;
   float: left;
-}
-.jumbotron{
-  background-color: #00FFFF;
-
-}
-
-
-a.navbar-brand {
-  font-family: 'Clicker Script', cursive;
-  font-size: 40px;
-  color: white;
 }
 
 #animated-text{
@@ -52,3 +42,52 @@ span{
 @keyframes blink{
   to{ opacity: .0;}
 }
+
+.jumbotron{
+  background-color: #00FFFF;
+  text-align: center;
+}
+
+div.blog-post{
+  padding-left: 55px;
+  padding-bottom: 20px;
+}
+.post-title{
+  font-family: 'Clicker Script', cursive;
+  color: gray;
+}
+
+.date{
+  color: #00FFFF;
+  font-size: 18px;
+}
+
+div.about{
+  padding: 30px;
+}
+.social-container{
+  padding: 30px; 
+}
+
+.social {
+    margin: 0;
+    padding-top: 200;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+.footer{
+  background: black;
+  text-align: center;
+  color: gray;
+}
+
