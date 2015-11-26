@@ -1,5 +1,12 @@
 body {
   padding-top: 50px;
+  padding-bottom: 70px; 
+}
+
+.footer{
+  background: black;
+  text-align: center;
+  color: gray;
 }
 .starter-template {
   padding: 40px 15px;
@@ -11,6 +18,11 @@ body {
   padding: 25px;
   float: left;
 }
+.jumbotron{
+  background-color: #00FFFF;
+
+}
+
 
 a.navbar-brand {
   font-family: 'Clicker Script', cursive;
@@ -24,8 +36,8 @@ a.navbar-brand {
   width: 10em;
   white-space:nowrap;
   overflow:hidden;
-  -webkit-animation: type 5s steps(50, end);
-  animation: type 5s steps(50, end);
+  -webkit-animation: type 4s steps(50, end);
+  animation: type 4s steps(50, end);
 }
 
 @keyframes type{
