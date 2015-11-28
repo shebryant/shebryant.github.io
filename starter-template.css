@@ -6,8 +6,8 @@ body {
 a.navbar-brand {
   font-family: 'Clicker Script', cursive;
   font-size: 40px;
-  color: white;
-  text-decoration: none;
+ 
+  text-decoration: ;
 
 }
 
@@ -24,7 +24,7 @@ padding-bottom: 75px;
 
 div.toys{
   text-align: center;
-  font-size:24px;
+  font-size:20px;
   color: white;
   background-color: gray;
 }
@@ -58,7 +58,6 @@ span{
 }
 
 .jumbotron{
-
   background-color: #00FFFF;
   text-align: center;
   border-color: gray;
@@ -66,7 +65,9 @@ span{
 
 div.blog-post{
   padding-left: 55px;
+  padding-right: 55px;
   padding-bottom: 20px;
+  text-align: justify;
 }
 .post-title{
   font-family: 'Clicker Script', cursive;
@@ -92,8 +93,24 @@ div.about{
   color: gray;
 }
 
-.social-container{
-  padding: 30px; 
+.project-content{
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.social-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .social {
@@ -120,7 +137,7 @@ div.about{
 
 div.col-md-4{
   color: gray;
-  font-size: 50px;
+  font-size: 36px;
   text-align: left;
   padding: 20px;
 }
