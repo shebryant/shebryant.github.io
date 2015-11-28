@@ -60,6 +60,11 @@ span{
   to{ opacity: .0;}
 }
 
+
+.lead{
+font-style: italic;
+}
+
 .jumbotron{
   background-color: #00FFFF;
   text-align: center;
