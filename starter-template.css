@@ -5,7 +5,7 @@ body {
 
 a.navbar-brand {
   font-family: 'Clicker Script', cursive;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .navbar-inverse .navbar-brand:hover, 
@@ -19,11 +19,11 @@ a.navbar-brand {
   text-align: left;
 }
 
-div.mid-section{
+/*div.mid-section{
 padding-top: 30px;
 padding-bottom: 75px;
-padding-left: 50px;
-}
+padding-left: 35px;
+}*/
 
 div.toys{
   text-align: center;
@@ -33,7 +33,7 @@ div.toys{
 }
 
 .img-circle {
-  padding: 25px;
+  padding: 35px;
   float: left;
 }
 
@@ -64,6 +64,8 @@ span{
   background-color: #00FFFF;
   text-align: center;
   border-color: gray;
+  border-style: solid;
+  color: gray;
 }
 
 div.blog-post{
@@ -107,6 +109,8 @@ div.about{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-color: gray;
+  border-style: solid;
 }
 
 div.social-container{
