@@ -5,21 +5,25 @@ body {
 
 a.navbar-brand {
   font-family: 'Clicker Script', cursive;
-  font-size: 40px;
- 
-  text-decoration: ;
+  font-size: 45px;
+}
 
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  background-color: transparent;
+  color: #999999;
 }
 
 .starter-template {
   padding: 40px 15px;
   text-align: left;
-  /*background: #00FFFF;*/
 }
 
 div.mid-section{
-padding-top: 30px;
+/*padding-top: 30px;
 padding-bottom: 75px;
+padding-left: 50px;*/
+padding: 50px;
 }
 
 div.toys{
